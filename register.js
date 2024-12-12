@@ -35,6 +35,6 @@ form.addEventListener("submit", (e) => {
     fullNameError.textContent = "";
     repasswordError.textContent = "";
 
-    alert("Login Succesfull");
+    alert("Register Succesfull");
   }
 });
