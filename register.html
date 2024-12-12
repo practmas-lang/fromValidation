@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="image">
+        <img src="img/signup.PNG" alt="" />
+      </div>
+      <form action="#" class="sign-up">
+        <h1>Sign up</h1>
+        <div class="sec1">
+          <span>ّFull name</span>
+          <img src="img/name.png" class="icon" />
+          <input id="full-name" type="text" placeholder="Enter Your fullname" />
+          <span id="full-name-error" class="error"></span>
+        </div>
+        <div class="sec1">
+          <span>Email address</span>
+          <img src="img/email.png" class="icon" />
+          <input id="email" type="text" placeholder="Enter Your Email" />
+          <span id="email-error" class="error"></span>
+        </div>
+        <div class="sec1">
+          <span>password </span>
+          <img src="img/password.png" class="icon" />
+          <input
+            id="password"
+            type="password"
+            class="pass"
+            placeholder="Enter  Password"
+          />
+          <span id="password-error" class="error"></span>
+          <span>Re-password </span>
+
+          <input
+            id="repassword"
+            type="password"
+            placeholder="Confrim  Password"
+          />
+          <span id="repassword-error" class="error"></span>
+        </div>
+        <button class="btn">Sign up</button>
+        <span class="under"
+          >Already have on Account? <a href="login.html">Login</a></span
+        >
+      </form>
+    </section>
+  </body>
+  <script src="register.js"></script>
+</html>
